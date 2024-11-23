@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .header-button {
+        @apply lg:w-[10.063rem]  lg:w-[9rem] h-[2.5rem] border bg-transparent border-gray-500 sm:w-[8rem] w-[5rem] text-gray-400;
+    }
+}
